@@ -3,12 +3,15 @@ layout:     post
 title:      四季插画日历
 excerpt: 一年四季，十二个月的更替，每个月都有着独特的风景，总有一些风景能带给我们不一样的回忆和感受，画了这样一个系列将这些景色记录下来，希望自己能够用心去感受生活。
 
-category:	Projects
+category:	UI/UX
+tags:
+  - Stuffs
+photos: 
+  - https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/chinese-calendar/cover.png
 ---
 一年四季，十二个月的更替，每个月都有着独特的风景，总有一些风景能带给我们不一样的回忆和感受，画了这样一个系列将这些景色记录下来，希望自己能够用心去感受生活。
 
-你也可以在这些地方观看：*[On Behance](https://www.behance.net/gallery/70402213/Chinese-Calendar) | 
-[On Dribbble](https://dribbble.com/clovertuan/projects/747792-Calendar)*
+你也可以在这些地方观看：*[On Behance](https://www.behance.net/gallery/70402213/Chinese-Calendar) | [On Dribbble](https://dribbble.com/clovertuan/projects/747792-Calendar)*
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/chinese-calendar/cover.png)
 

@@ -1,0 +1,30 @@
+<% if (page.category) { %>
+  <% page.posts.each(function(post){ %>
+    <%- partial('_partial/' + (theme.card_style.category || 'article-card'), { post: post }) %>
+  <% }) %>
+<% } else { %>
+  <section class="archive">
+    <% var postPerCategory = theme.category_generator.post_per_category; %>
+    <% page.posts.each(function (category) { %>
+      <section class="archive-category">
+        <a class="title" href="/categories/<%- path_url(category.name) %>"><%= category.name %></a>
+        <ul class="menu">
+          <% category.posts.slice(0, postPerCategory).each(function(item) { %>
+            <li>
+              <a href="<%- url_for(item.path) %>">
+                <span><%= item.title %></span>
+                <%- date(item.date, 'MMM D, YYYY') %>
+              </a>
+            </li>
+          <% }); %>
+          <% if (category.posts.length > postPerCategory) { %>
+            <li>
+              <a href="/categories/<%- path_url(category.name) %>">...</a>
+            </li>
+          <% } %>
+        </ul>
+      </section>
+    <% }); %>
+  </section>
+<% } %>
+<%- partial('_partial/pagination') %>
