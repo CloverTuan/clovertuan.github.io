@@ -1,6 +1,6 @@
 # Clover
 ## Prerequisite
-You got a blog project built by ![Hexo](https://hexo.io). Your project directory should like this:
+You got a blog project built by [Hexo](https://hexo.io). Your project directory should like this:
 ```
 _config.yml  node_modules  package.json  public  scaffolds  source  themes
 ```
@@ -68,12 +68,6 @@ photos: [my_photo_url]
   title: categories
   date: 2018-10-05 12:12:53
   ---
-  ```
-- Edit categories config (category root page)
-  ```
-  category_generator:
-    category_per_page: 3
-    post_per_category: 3
   ```
 ### About page.
 - Create a page named about
