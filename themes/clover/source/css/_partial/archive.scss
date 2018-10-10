@@ -8,19 +8,19 @@
 
 .archive-category {
   > .title {
-    font-size: 28px;
+    font-size: 25px;
     line-height: 40px;
     font-weight: 600;
   }
   > .menu {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     > li {
-      margin-top: 15px;
+      margin-top: 10px;
       font-size: 16px;
-      line-height: 30px;
+      line-height: 24px;
       display: flex;
       justify-content: space-between;
-      line-height: 30px;
+      line-height: 24px;
       > a {
         &:hover {
           opacity: 1;
