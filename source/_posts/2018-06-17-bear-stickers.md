@@ -3,7 +3,7 @@ layout:     post
 title:      焦虑熊表情包来啦ʕ•ᴥ•ʔ
 excerpt: 我的第一套微信表情包，取材于小熊同学的日常智障瞬间，总的来说，整个制作过程比想象中顺利很多。已上架至微信表情商店，欢迎下载...
 
-category:	Drawing
+category:	Draw
 tags:
   - Stuffs
 photos: 
