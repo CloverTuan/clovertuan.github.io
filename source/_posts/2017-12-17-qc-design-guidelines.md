@@ -9,8 +9,8 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 > 设计规范是一套有规则的标准，同时提供了可变化的设计方法，方便迭代、方便其他人进行设计。它的存在不是为了约束我们的发挥，反而是让我们把精力放在更有价值的地方。
 
-## 1 项目背景
-青橙最主要的产品之一「青橙健身房管理系统」是一套Web端的SaaS系统，自2014年诞生以来，功能迭代频繁，系统越来越庞大的同时也越来越混乱；同时随着设计团队的扩大，也需要一份规范文档来确保设计的统一性。因此前段时间我们启动了设计规范这个项目，一方面是为了优化系统的用户体验，另一方面则是为了提高整个团队的工作效率和产出质量。
+## 项目背景
+前段时间我们启动了Web端设计规范这个项目，一方面是为了优化系统的用户体验，另一方面则是为了提高整个团队的工作效率和产出质量。
 
 **主要价值**
 
@@ -22,14 +22,21 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 现在已经有一些很成熟的前端组件库可以直接使用了，如Element、Ant Design 等，我们为什么不直接用呢？主要是因为我们使用的前端框架和它们不同，如果要迁移的话成本很大，因此我们只能自己做个轮子了。
 
-## 2 我的角色
+## 我的角色
 作为这个项目的负责人及推动者，我的工作内容主要包括以下几点：
 
-![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-2.png)
+* 制定项目的目标、实施步骤及产出结果
+* 产出设计规范的内容
+* 在团队内部推广和使用设计规范
+* 设计规范后续的维护和迭代
 
 我们团队的人力并不富足，在这个项目中只有我和一名前端工程师参与进来，且并没有一个完整的项目周期让我们去做这件事，也就是说我们要在日常业务项目之余花时间去完成它，在这样的情况下，从开始到最后投入使用，我们差不多花了两个月的时间，将投入成本和对公司其他项目的影响降到了最低。
 
-## 3 需求分析
+## 设计步骤
+
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-10.jpg)
+
+## 产出内容
 设计规范使用对象不仅限于设计师，还包括前端工程师、产品经理等，不同角色的需求是不同的。
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-3.png)
@@ -38,36 +45,35 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-4.png)
 
-
-## 4 设计步骤
-
-![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-10.jpg)
-
-## 5 产出内容
-
-**1）规范文档：**包含以下内容，除了组件外，还包括系统里的通用交互规范。
+## 交互 + 视觉的规范文档
+规范文档不是一份仅包含视觉样式的文档，除了组件外，还包括系统里的通用交互规范、文档信息等。
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-5.jpg)
 
-通用交互规范主要是一些文字说明，用来规范系统里一些细小的问题，之前这些问题没有被规范，出现的问题就是体验的缺失或体验不统一，如下图。
+**通用交互规范**
+
+通用交互规范主要是一些文字说明，用来规范系统里一些细小的、容易被忽略的问题，避免体验的缺失或体验不统一，如下图。
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-8.jpg)
 
-每个组件的规范，除了组件的视觉样式外，还要给出该组件的交互方式、使用场景说明，让阅读文档的人能够明白这个组件是怎样使用的，必要的时候还可以给出正确示例和错误示例。以表单为例，除了说明它的样式外，我们还要考虑它的输入反馈、表单校验、提交反馈等，如下图。
+**组件规范**
+
+每个组件的规范，除了组件的视觉样式外，还要给出该组件的交互方式、使用场景说明，让阅读文档的人能够明白这个组件是怎样使用的，必要的时候还可以给出正确示例和错误示例。以按钮组件为例，规范中需要包含系统中出现的所有按钮，以及各自的使用场景和注意事项，如下图。
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-9.jpg)
 
-**2）UI Kit：**以 Sketch Library 的形式呈现，在 Sketch 中引用即可，为了便于后续的维护和迭代，这里把颜色、icon、组件做了拆分，如下。
+## UI Kit
+以 Sketch Library 的形式呈现，在 Sketch 中引用即可，为了便于后续的维护和迭代，这里把颜色、icon、组件做了拆分，如下。
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-6.jpg)
 
-**3）前端组件库 [clover-ui](https://qingchengfed.github.io/angular-clover-ui/) **
+## 前端组件库 [clover-ui](https://qingchengfed.github.io/angular-clover-ui/) 
 
 由于时间有限，因此在设计的后半段，前端工程师就开始开发了，且大多是利用下班后的时间做的，在此要感谢前端小熊同学的支持。有趣的是，小熊同学以我的名字命名了这个UI框架，线上查看[ clover-ui ](https://qingchengfed.github.io/angular-clover-ui/)。有了设计规范和这个组件库后，一些简单的页面已经不需要设计师再出设计稿了，可以说大大解放了劳动力。
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-7.png)
 
-**4）更多设计展示**
+## 更多设计展示
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-14.jpg)
 
@@ -75,7 +81,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-16.jpg)
 
-## 6 推行、使用及迭代
+## 推行、使用及迭代
 **1）在团队中推行设计规范**
 
 不要以为产出一份打着「设计规范1.0」的文档就算结束了，其实这才是刚刚开始。接下来要解决的问题是如何在团队内推行规范，并保证规范的落实。以下是我们确定的方案：
@@ -98,7 +104,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-11.png)
 
-## 7 遇到的困难
+## 遇到的困难
 **1）资源有限**
 
 公司主要以业务为导向，且人力资源有限，这件在我看来优先级很高的事情，在公司的层面优先级并不高，能给的资源不多。因此我们大多是利用项目外时间、甚至是下班后的时间做的，很感谢项目成员的理解与支持。
@@ -112,7 +118,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 这两个问题刚好是两个极端，一个忽视规范的存在，自由发挥；另一个则又掉入了刻板遵守规范的泥潭。我鼓励设计师们去完善去优化这套规范，如果觉得这个组件不好用、不好看、不能满足需求，我们可以一起去改，而不是放飞自我或者压抑自己。为了解决这个问题，我们在后期加强了设计师之间的 review 流程。
 
-## 8 总结
+## 总结
 严格意义上来说，这算是一个我真正完全独立负责的项目，从项目开始落地到最终的上线使用，我不只是单纯地扮演一个设计师的角色，也是整个项目的负责人和推动者，很开心这套规范最终能够投入使用并取得了不错的效果。以下是我的一些经验总结。
 
 **1）如果可以，不要重复造轮子**
