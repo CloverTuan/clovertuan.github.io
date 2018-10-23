@@ -6,7 +6,7 @@ excerpt: 在 Google I/O 2018 大会上，Google 设计团队发布了他们最�
 
 category:	UI/UX
 tags:
-  - Stuffs
+  - Blog
 photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/material-design/md-cover.jpg
 
 ---

@@ -5,7 +5,7 @@ excerpt: 我的第一套微信表情包，取材于小熊同学的日常智障�
 
 category:	What's Up
 tags:
-  - Stuffs
+  - Blog
 photos: 
   - https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/bear-sticker/bear-cover.jpg
 ---

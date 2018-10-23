@@ -5,7 +5,7 @@ excerpt: 一年四季，十二个月的更替，每个月都有着独特的风�
 
 category:	UI/UX
 tags:
-  - Stuffs
+  - Blog
 photos: 
   - https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/chinese-calendar/cover-small.png
 ---
