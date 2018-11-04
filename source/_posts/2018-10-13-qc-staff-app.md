@@ -15,6 +15,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-s
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/1.jpg)
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/2.jpg)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/13.jpg)
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/3.jpg)
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/4.jpg)
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/5.jpg)
