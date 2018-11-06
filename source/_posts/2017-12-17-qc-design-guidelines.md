@@ -10,7 +10,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 > 设计规范是一套有规则的标准，同时提供了可变化的设计方法，方便迭代、方便其他人进行设计。它的存在不是为了约束我们的发挥，反而是让我们把精力放在更有价值的地方。
 
 ## 项目背景
-前段时间我们启动了Web端设计规范这个项目，一方面是为了优化系统的用户体验，另一方面则是为了提高整个团队的工作效率和产出质量。
+前段时间我们启动了Web端设计规范这个项目，一方面是为了优化系统的用户体验，另一方面则是为了提高整个团队的工作效率和产出质量。完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71573697/Web10)
 
 **主要价值**
 
@@ -60,7 +60,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 每个组件的规范，除了组件的视觉样式外，还要给出该组件的交互方式、使用场景说明，让阅读文档的人能够明白这个组件是怎样使用的，必要的时候还可以给出正确示例和错误示例。以按钮组件为例，规范中需要包含系统中出现的所有按钮，以及各自的使用场景和注意事项，如下图。
 
-![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-9.jpg)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-7.png)
 
 ## UI Kit
 以 Sketch Library 的形式呈现，在 Sketch 中引用即可，为了便于后续的维护和迭代，这里把颜色、icon、组件做了拆分，如下。
@@ -75,11 +75,20 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 ## 更多设计展示
 
-![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-14.jpg)
+完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71573697/Web10)
 
-![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-15.jpg)
-
-![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-16.jpg)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-2.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-3.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-4.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-5.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-6.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-7.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-8.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-9.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-10.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-11.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-12.png)
+![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-13.png)
 
 ## 推行、使用及迭代
 **1）在团队中推行设计规范**
