@@ -10,11 +10,11 @@
 
 @font-face {
   font-family: 'iconfont';  /* project id 861369 */
-  src: url('//at.alicdn.com/t/font_861369_9voy0xmnmvl.eot');
-  src: url('//at.alicdn.com/t/font_861369_9voy0xmnmvl.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_861369_9voy0xmnmvl.woff') format('woff'),
-  url('//at.alicdn.com/t/font_861369_9voy0xmnmvl.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_861369_9voy0xmnmvl.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_861369_ceqcqtwid2r.eot');
+  src: url('//at.alicdn.com/t/font_861369_ceqcqtwid2r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_861369_ceqcqtwid2r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_861369_ceqcqtwid2r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_861369_ceqcqtwid2r.svg#iconfont') format('svg');
 }
 
 .iconfont{
@@ -34,6 +34,9 @@
   }
   &.icon-dribbble::before {
     content: '\e6c3';
+  }
+  &.icon-zcool::before {
+    content: '\e6be';
   }
   &.icon-github::before {
     content: '\e799';
