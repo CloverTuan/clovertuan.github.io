@@ -4,6 +4,8 @@ title:      青橙Web端设计规范1.0
 excerpt: 记一次造轮子的经历
 
 category:	Projects
+tag:
+  - Blog
 photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/guidelines-cover.png
 ---
 

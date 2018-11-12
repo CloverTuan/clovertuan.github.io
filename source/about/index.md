@@ -9,6 +9,7 @@ date: 2018-10-04 13:20:47
 
 你也可以在这些地方找到我：
 
-* UI/UX作品 [Dribbble](https://dribbble.com/clovertuan) | [Behance](https://www.behance.net/clovertuan)
+* 我的作品集 [Portfolio](https://clovertuan.github.io/resume/)
+* UI/UX作品 [Dribbble](https://dribbble.com/clovertuan) | [Behance](https://www.behance.net/clovertuan) | [站酷](https://elsietuan.zcool.com.cn/)
 * 涂涂画画 [Lofter](http://clovertuan.lofter.com/) 
 * 一些日常 [Instagram](https://www.instagram.com/clovertuan)

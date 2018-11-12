@@ -25,16 +25,18 @@ copyright: All rights reserved @Clover Tuan
 # Two kinds of card style: 'project-card', 'article-card',
 # Never mind the name.
 menu:
-  Project: /
-  Blog: /tags/Blog
-  Archive: /categories
-  Resume: /resume
+  # Project: /
+  Blog: /
+  #Archive: /categories
+  Portfolio: /resume
+  About: /about
 
 # Specific default categories or tags of home page.
 # Post which belongs to `category` or `tag` and don't belongs to `except_category` or `except_tag` will be filtered.
 home:
   # set card style of home page
-  category: Projects
+  tag: Blog
+  # category: Project
   # tag: 算法
   # except_category: 树
   # except_tag:
@@ -44,7 +46,7 @@ home:
 card_style:
   home: project-card
   archive: article-card
-  tag: article-card
+  tag: project-card
   category: article-card
 
 # category page

@@ -4,6 +4,8 @@ title:      青橙健身管理App
 excerpt: 为健身从业者打造的平台，支持每个健身从业者的梦想！App Store、应用宝可搜索下载
 
 category:	Projects
+tag:
+  - Blog
 photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/qcstaff-cover.png
 ---
 
