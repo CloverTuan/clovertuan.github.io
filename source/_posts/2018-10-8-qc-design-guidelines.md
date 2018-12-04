@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      青橙Web端设计规范1.0
+title:      青橙Web端设计规范1.0设计总结
 excerpt: 记一次造轮子的经历
 
 category:	Projects
@@ -12,7 +12,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 > 设计规范是一套有规则的标准，同时提供了可变化的设计方法，方便迭代、方便其他人进行设计。它的存在不是为了约束我们的发挥，反而是让我们把精力放在更有价值的地方。
 
 ## 项目背景
-前段时间我们启动了Web端设计规范这个项目，一方面是为了优化系统的用户体验，另一方面则是为了提高整个团队的工作效率和产出质量。完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71573697/Web10)
+前段时间我们启动了Web端设计规范这个项目，一方面是为了优化系统的用户体验，另一方面则是为了提高整个团队的工作效率和产出质量。完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71573697/Web10) | [On Zcool](https://www.zcool.com.cn/work/ZMzEyMDc4MzY=.html)
 
 **主要价值**
 
@@ -77,7 +77,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-
 
 ## 更多设计展示
 
-完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71573697/Web10)
+完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71573697/Web10) | [On Zcool](https://www.zcool.com.cn/work/ZMzEyMDc4MzY=.html)
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-2.png)
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/web-guidelines/qcguidelines-3.png)

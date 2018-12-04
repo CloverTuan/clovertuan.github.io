@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      青橙健身管理App
+title:      青橙健身管理App设计总结
 excerpt: 为健身从业者打造的平台，支持每个健身从业者的梦想！App Store、应用宝可搜索下载
 
 category:	Projects
@@ -11,7 +11,7 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-s
 
 青橙健身管理App是[青橙科技](http://qingchengfit.cn/)旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS 功能，方便工作人员随时随地管理健身房、跟进会员；同时还可以随时了解健身行业的新闻资讯、一对一求职招聘、参加健身会议培训等、组织全国范围内的健身赛事，连接健身行业的从业者，在这里实现健身从业的第一步！
 
-该产品在2016年3月开始做，2016年7月上线1.0版本，现在仍然在持续地迭代和优化。在这个产品中，我担任交互和视觉设计师，负责80%的设计工作，1.0版本全部由我独立负责，完整地参与整个项目周期。您也可以在这里观看：[On Behance](https://www.behance.net/gallery/71708425/AppAn-App-for-fitness-practitioner) | [On Dribbble](https://dribbble.com/shots/5504183-An-App-for-fitness-practitioner)
+该产品在2016年3月开始做，2016年7月上线1.0版本，现在仍然在持续地迭代和优化。在这个产品中，我担任交互和视觉设计师，负责80%的设计工作，1.0版本全部由我独立负责，完整地参与整个项目周期。您也可以在这里观看：[On Behance](https://www.behance.net/gallery/71708425/AppAn-App-for-fitness-practitioner) | [On Zcool](https://www.zcool.com.cn/work/ZMzEyMDgzNjA=.html) | [On Dribbble](https://dribbble.com/shots/5504183-An-App-for-fitness-practitioner) 
 
 ## 项目背景
 
@@ -82,9 +82,9 @@ photos: https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-s
 
 
 
-## 界面展示
+## 部分界面展示
 
-完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71708425/AppAn-App-for-fitness-practitioner)
+完整的项目展示可以在这里观看：[On Behance](https://www.behance.net/gallery/71708425/AppAn-App-for-fitness-practitioner) | [On Zcool](https://www.zcool.com.cn/work/ZMzEyMDgzNjA=.html) 
 
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/6.jpg)
 ![](https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/9.jpg)
