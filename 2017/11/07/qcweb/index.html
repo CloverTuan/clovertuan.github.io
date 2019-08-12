@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>组件化的运用—健身房管理系统Web改版小结 | Clover Tuan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="青橙科技最主要、也是最早的产品——「青橙健身房管理系统」在10月进行了一次改版，也是自2014年诞生以来的第一次改版，在这次改版中，运用到了「组件化设计」的思路，对这个名词算是有了更多的认识。 01.项目背景▼ 青橙健身房管理系统Web是什么？ 青橙健身房管理系统Web是一款为健身房工作人员提供服务的SaaS产品，帮助他们进行健身房的日常管理工作，类似于tower、钉钉等产品。 ▼ 为什么要改版？">
+<meta name="keywords" content="Blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="组件化的运用—健身房管理系统Web改版小结">
+<meta property="og:url" content="https://clovertuan.github.io/2017/11/07/qcweb/index.html">
+<meta property="og:site_name" content="Clover Tuan">
+<meta property="og:description" content="青橙科技最主要、也是最早的产品——「青橙健身房管理系统」在10月进行了一次改版，也是自2014年诞生以来的第一次改版，在这次改版中，运用到了「组件化设计」的思路，对这个名词算是有了更多的认识。 01.项目背景▼ 青橙健身房管理系统Web是什么？ 青橙健身房管理系统Web是一款为健身房工作人员提供服务的SaaS产品，帮助他们进行健身房的日常管理工作，类似于tower、钉钉等产品。 ▼ 为什么要改版？">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/QCWeb-redesign/qcweb-cover.png">
+<meta property="og:updated_time" content="2019-08-12T15:58:04.812Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="组件化的运用—健身房管理系统Web改版小结">
+<meta name="twitter:description" content="青橙科技最主要、也是最早的产品——「青橙健身房管理系统」在10月进行了一次改版，也是自2014年诞生以来的第一次改版，在这次改版中，运用到了「组件化设计」的思路，对这个名词算是有了更多的认识。 01.项目背景▼ 青橙健身房管理系统Web是什么？ 青橙健身房管理系统Web是一款为健身房工作人员提供服务的SaaS产品，帮助他们进行健身房的日常管理工作，类似于tower、钉钉等产品。 ▼ 为什么要改版？">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/QCWeb-redesign/qcweb-cover.png">
+  
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+</html>
+<body style="
+
+
+  background-color: #eff0f6
+
+">
+  <div id="container">
+    <nav id="nav">
+  <header class="header">
+    <a href="/" class="title">Clover Tuan</a>
+  </header>
+  <div class="ctnWrap">
+    <div class="icons">
+      
+        
+          
+            <a href="https://dribbble.com/clovertuan" target="_blank" class="nav-icn iconfont icon-dribbble"></a>
+          
+        
+          
+            <a href="https://www.behance.net/clovertuan" target="_blank" class="nav-icn iconfont icon-behance"></a>
+          
+        
+          
+            <a href="https://elsietuan.zcool.com.cn/" target="_blank" class="nav-icn iconfont icon-zcool"></a>
+          
+        
+          
+            <a href="http://clovertuan.lofter.com/" target="_blank" class="nav-icn iconfont icon-lofter"></a>
+          
+        
+          
+            <a href="https://www.instagram.com/clovertuan/" target="_blank" class="nav-icn iconfont icon-instagram"></a>
+          
+        
+      
+    </div>
+    <div class="menu">
+      
+        
+            <a href="/" class="nav-menu ">BLOG</a>
+          
+        
+            <a href="/resume" class="nav-menu ">PORTFOLIO</a>
+          
+        
+            <a href="/about" class="nav-menu ">ABOUT</a>
+          
+        
+      
+    </div>
+  </div>
+</nav>
+    <div id="main"><section class="article">
+  <h2 class="title">组件化的运用—健身房管理系统Web改版小结</h2>
+  <p class="sub">Nov 7, 2017</p>
+  <article class="content">
+    <p>青橙科技最主要、也是最早的产品——「青橙健身房管理系统」在10月进行了一次改版，也是自2014年诞生以来的第一次改版，在这次改版中，运用到了「组件化设计」的思路，对这个名词算是有了更多的认识。</p>
+<h2 id="01-项目背景"><a href="#01-项目背景" class="headerlink" title="01.项目背景"></a>01.项目背景</h2><p><strong>▼ 青橙健身房管理系统Web是什么？</strong></p>
+<p>青橙健身房管理系统Web是一款为健身房工作人员提供服务的SaaS产品，帮助他们进行健身房的日常管理工作，类似于tower、钉钉等产品。</p>
+<p><strong>▼ 为什么要改版？</strong></p>
+<p>青橙科技自2014年成立以来，期间企业形象和品牌VI经历过数次更新迭代，而作为青橙最主要、也是最早的产品，「青橙健身房管理系统」的样式和体验还一直停留在三年前最初的样子；另外，随着功能增加，系统越来越庞大，用户体验的问题随之出现，模块之间的样式和交互体验不统一的问题也日益突出，亟待优化。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE1-%E7%B3%BB%E7%BB%9F%E4%B8%8D%E8%B6%B3.png" alt></p>
+<h2 id="02-设计目标"><a href="#02-设计目标" class="headerlink" title="02.设计目标"></a>02.设计目标</h2><p>改版需要针对已知问题进行解决，本次改版并不涉及到产品结构和逻辑的改动，主要目标是从视觉和交互的层面优化用户体验、提高系统一致性。结合青橙健身房管理系统的特点，在这次设计中，采用了组件化设计的方法，组件化设计能够保证特定的信息就有特定的最优展现方式和交互方式，使用得好的话，可以从很大程度上减少系统的混乱和不一致性。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE2-%E7%BB%84%E4%BB%B6%E5%8C%96%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E4%BB%8B%E7%BB%8D%20copy.png" alt></p>
+<p>我们主要从以下几步来进行：</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE3-%E6%AD%A5%E9%AA%A4%E5%9B%BE.png" alt></p>
+<h2 id="03-解构"><a href="#03-解构" class="headerlink" title="03.解构"></a>03.解构</h2><p>在这一步，通过对系统进行梳理，我们提取出了产品中的共用部分，并分析存在的一些问题，都是一些极为常见的基础组件。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE4-%E8%A7%A3%E6%9E%84.png" alt></p>
+<p>另外，除了这些基础组件，系统配色、页面布局规范也是这一次我们需要考虑的内容。为了强化品牌形象，使得青橙各平台对外输出的视觉风格保持统一，最终我们确定的配色方案如下。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE5-%E9%A1%B5%E9%9D%A2%E9%85%8D%E8%89%B2%E7%A4%BA%E4%BE%8B.png" alt></p>
+<p>页面布局我们还是沿用了SaaS系统经典的左右布局，左边是固定宽度，右边自适应宽度，不同的是我们对右边的区域采用了栅格化布局。并且我们规范了页面元素间的间距，必须是5的整数倍，这样可以有效避免混乱的间距。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE6-%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E7%A4%BA%E4%BE%8B.png" alt="（图：页面布局示例）"></p>
+<h2 id="04-组件设计"><a href="#04-组件设计" class="headerlink" title="04.组件设计"></a>04.组件设计</h2><p>梳理出了这些基础通用组件，接下来要做的就是设计这些组件了。组件化思维的精髓是独立、完整、自由组合，绝对不是将各种组件穷举出来然后各处引用这么简单。下面会用我们的实际例子来说明这几点。</p>
+<p><strong>▼ 组件独立</strong></p>
+<p>不同组件是独立存在的，这样可以快速地统一修改系统中的某个组件，同时又不影响其他无关的组件。但某些组件之间又是有关联的，一个组件可以引用另外一个组件，修改被引用的组件会影响到与之关联的组件，那么在实际过程中，我们应当考虑到修改这个组件所带来的影响，是不是我们想要的效果。</p>
+<p>比如我们系统中的主菜单，这是一个完全独立的组件，单独修改它不会影响系统中其他任何组件。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE7-%E4%B8%BB%E8%8F%9C%E5%8D%95%E7%A4%BA%E4%BE%8B.png" alt="（主菜单组件示例）"></p>
+<p>而系统中的Confirm弹窗组件则是另外一种情况，Confirm弹窗组件中引用了按钮组件当中的Medium主按钮，修改弹窗组件不会影响到按钮及其他组件，而修改按钮组件则会影响到弹窗组件。当然，弹窗组件里完全可以不引用按钮组件，另外设计一个只用于弹窗里的按钮，但这样做其实就违背了组件化设计的初衷。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE8-confirm%E5%BC%B9%E7%AA%97%E7%BB%84%E4%BB%B6%E7%A4%BA%E4%BE%8B.png" alt="（Confirm弹窗组件示例）"></p>
+<p>特别的，系统中的常用颜色也应该是独立出来的，特定的颜色用于特定的地方，这样不仅规范而且便于以后统一修改。</p>
+<p><strong>▼ 每个组件的完整性</strong></p>
+<p>在设计过程中，每个组件应当是一个完整的产品，怎样才算完整呢？简单来说，一个完整的组件应该能满足系统对其所有可能的要求。</p>
+<p>比如按钮作为一个基本组件，它绝不仅仅只有一种，而应该包含系统当中可能出现的各种类型、各种状态的按钮：</p>
+<ul>
+<li>类型：用于主要操作的主按钮、用于次要操作的次按钮、用于区分危险操作的危险按钮、纯文字按钮、带图标的按钮…等等；</li>
+<li>样式：除了最基本的normal、hover、active、disable几种标准状态，还要考虑按钮的尺寸变化。系统中所有的填充型按钮都有大、中、小三种尺寸，各个尺寸下根据文字长短适配的规则如图中所示；</li>
+<li>交互：按钮在点击后，等待服务器响应的过程中是disable的，防止重复点击；多个操作按钮并排时，要区分主按钮和次按钮，按钮多余3个时，可以考虑使用dropdown。</li>
+<li>……</li>
+</ul>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE9-%E6%8C%89%E9%92%AE%E7%BB%84%E4%BB%B6%E7%A4%BA%E4%BE%8B.png" alt="（按钮组件示例）"></p>
+<p>将这样一个完整的按钮组件交给开发后，在以后的页面设计中，设计人员几乎不用再针对按钮做过多的说明，即使设计师在设计图中出现了误差，开发人员也可以纠正过来，当然，设计师也不能因此掉以轻心。</p>
+<p><strong>▼ 组件间的组合</strong></p>
+<p>既然组件最后是要组合在一起的，那么我们还应当考虑各个零部件之间的组合方式，单个元素放在那里是无法构成一个系统的，比较典型的是表单的组合。表单通常是由多个表单元素：input、select、checkbox、radio、button…等组合在一起，最最基本的也包括input和button。在组合表单时，也应当从各种状态去考虑：</p>
+<ul>
+<li>表单对齐方式：为了增加表单填写的速度，应当保证浏览线在一条直线上，因此表单项和按钮采用左对齐的方式，而label采用右对齐的方式是为了避免label过长时造成label与输入框之间的间距太长，降低阅读效率；</li>
+<li>表单项的间距：表单项在填写错误时会给出错误提示，为了避免页面跳动给用户带来不好的体验，我们将表单项的垂直间距设计成20px，足以用来显示错误信息；</li>
+<li>填写反馈：将表单已填写、未填写、hover、focus、disable、错误等几种状态用较明显的样式区分开来，让用户明白各表单项的状态；同时输入框的长短也能给用户一些隐形反馈，如输入数字的输入框相对来说会短一些；</li>
+<li>表单校验：我们把表单校验分为自动校验和提交时校验。自动校验即填写时就开始验证输入，如对格式有要求的手机号、邮编、邮箱输入框，只能填写数字的价格输入框等，这些都可以在用户填写时就能判断正确与否；提交时校验即在用户提交表单时校验剩下的表单项，如必填项未填写等；</li>
+<li>表单提交反馈：表单提交后，等待服务器响应的过程中提交按钮应该是disable的，防止重复点击；提交结果成功／失败，都应当给出反馈，对于较为重要的操作结果，我们用弹窗提示，而对于较弱的操作，用toast给出提示即可；</li>
+<li>……</li>
+</ul>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE10-%E8%A1%A8%E5%8D%95%E7%BB%84%E5%90%88%E7%A4%BA%E4%BE%8B.png" alt="（页面组合示例）"></p>
+<p><strong>▼ 建立规范文档</strong></p>
+<p>按照上面的思路设计出组件后，我们建立了规范文档，规范文档不仅仅是将已有的东西整理出来，更重要的是要将设计的思考表现出来，完整展现各个组件考虑到的点，可以作为设计手册去查阅，也可以让新入手项目的同事快速了解。因此，我们是将规范文档和UI Kit分开整理的，规范文档更像是一个适合查阅的设计说明手册，而UI Kit则是为了提高工作效率而单独整理给设计师的组件库。</p>
+<p>Sketch的symbol和library这两个功能的搭配使用，在很大程度上简化了规范文档和UI Kit的制作过程，里面的resizing功能也大大提高了symbol的可扩展性，具体的使用方法可以在网上找到很多相关文章，在此就不赘述了。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE11-%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3%E7%A4%BA%E4%BE%8B.png" alt="（图：设计规范示例）"></p>
+<p>建立规范文档后，就要实时去维护，一旦更新了组件，就要同步更新给大家，包括UI Kit组件库。</p>
+<p>另外，值得注意的是，一旦有了规范文档，那么在实际设计和开发过程当中，就应当按照规范来操作，而不应当随意添加或修改，这样规范才有了它的意义。</p>
+<h2 id="05-重构"><a href="#05-重构" class="headerlink" title="05.重构"></a>05.重构</h2><p>重构的过程其实就是将上面设计好的组件按照各个模块的功能重新组合到一起的过程。在这次改版中，考虑到时间周期和资源配比的问题，来不及对各个页面进行重设计和重开发，因此采用的方案是对旧组件进行替换，后续再进一步迭代重设计。所以此次“重构”的工作实际上是由我们的前端工程师来完成的。设计师完成组件规范文档，前端工程师按照规范开发出各个组件，设计师确认组件效果后，前端工程师再对原来的旧组件进行替换。当然，不是所有页面都能通过单纯的替换就能达到效果，还需要根据实际页面去调整。</p>
+<p><img src="https://github.com/CloverTuan/Markdown_Images/raw/master/QCWeb-redesign/%E5%9B%BE12-%E6%9C%80%E7%BB%88%E5%91%88%E7%8E%B0.png" alt="（图：系统的前后对比图）"></p>
+<h2 id="06-跟进，上线"><a href="#06-跟进，上线" class="headerlink" title="06.跟进，上线"></a>06.跟进，上线</h2><p>开发工作大体完成后，设计师开始review效果，对比交互及视觉稿，统一整理出与原设计不一致的地方，并提出修改意见，发予相关人员进行修改；没问题后配置测试环境，跟进线上实现效果，并交与测试工程师进行测试，最后上线。</p>
+<h2 id="07-总结和展望"><a href="#07-总结和展望" class="headerlink" title="07.总结和展望"></a>07.总结和展望</h2><p>反思整个改版过程，其实有很多做的不够完善的地方，设计不应当仅仅停留在设计过程，对整个产品的分析和全局思考的能力都是对设计师的考验，希望在后面的项目中能够加以借鉴、改进：</p>
+<ul>
+<li>产品定位不明确：例如产品想体现专业性还是安全稳定？想传递给用户的情绪感受是什么？这一点很重要，可以设计用户形象及典型使用场景来明确设计方向，为细节做参考，也更利于统一产品的用户体验；</li>
+<li>前期沟通不足：前期没有和大家预先规划好改版的原因、目标及期望值，帮助大家向一个方向努力。</li>
+</ul>
+<p>此次的改版取得了一定的效果，但并不完整，系统中仍然存在许多旧的页面，希望在接下来的迭代中可以对旧页面从结构和逻辑上思考更多，而不是仅仅停留在视觉和交互的层面；同时也需要学会利用数据，有针对性的解决实际问题。</p>
+
+  </article>
+  <footer class="f-cf">
+    
+      <a href="/2018/06/17/bear-stickers/" class="link f-fl">⟵焦虑熊表情包来啦ʕ•ᴥ•ʔ</a>
+    
+    
+      <a href="/2017/08/16/app-ads-launch-screen/" class="link f-fr">一张图搞定APP启动页广告⟶</a>
+    
+  </footer>
+</section></div>
+    <footer id="footer" class="f-cf">
+  d.guangying@foxmail.com
+  
+    
+      
+        · <a href="https://dribbble.com/clovertuan" target="_blank" class="nav-icn">Dribbble</a>
+      
+    
+      
+        · <a href="https://www.behance.net/clovertuan" target="_blank" class="nav-icn">Behance</a>
+      
+    
+      
+        · <a href="https://elsietuan.zcool.com.cn/" target="_blank" class="nav-icn">Zcool</a>
+      
+    
+      
+        · <a href="http://clovertuan.lofter.com/" target="_blank" class="nav-icn">Lofter</a>
+      
+    
+      
+        · <a href="https://www.instagram.com/clovertuan/" target="_blank" class="nav-icn">Instagram</a>
+      
+    
+  
+  <span class="copyright">All rights reserved @Clover Tuan</span>
+</footer>
+  </div>
+</body>
+</html>

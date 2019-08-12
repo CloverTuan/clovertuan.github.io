@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>用Jekyll建立Github博客 | Clover Tuan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="为什么写博客在网络快餐、微博客横行的今天，不得不说我越来越少地去集中思考一些问题，也越来越少地把自己的想法转化为大段文字，等到想写些什么的时候，提笔才知词穷。写博客的过程，其实就是一次深入思考并予以记录的过程，这会让人收获意想不到的喜悦，在以后看来，都会有不一样的感受。现在翻看两年前写的日志，常常会产生“我那时候竟然会有这样的想法”的感觉。 网络世界发展到今天，我们每个人在为数不少的各类网站上都有">
+<meta name="keywords" content="Blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用Jekyll建立Github博客">
+<meta property="og:url" content="https://clovertuan.github.io/2015/05/20/why-blog/index.html">
+<meta property="og:site_name" content="Clover Tuan">
+<meta property="og:description" content="为什么写博客在网络快餐、微博客横行的今天，不得不说我越来越少地去集中思考一些问题，也越来越少地把自己的想法转化为大段文字，等到想写些什么的时候，提笔才知词穷。写博客的过程，其实就是一次深入思考并予以记录的过程，这会让人收获意想不到的喜悦，在以后看来，都会有不一样的感受。现在翻看两年前写的日志，常常会产生“我那时候竟然会有这样的想法”的感觉。 网络世界发展到今天，我们每个人在为数不少的各类网站上都有">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://raw.githubusercontent.com/smallmuou/Jekyll-Pithy/master/images/Jekyll-Pithy.png">
+<meta property="og:updated_time" content="2019-08-12T15:58:04.811Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用Jekyll建立Github博客">
+<meta name="twitter:description" content="为什么写博客在网络快餐、微博客横行的今天，不得不说我越来越少地去集中思考一些问题，也越来越少地把自己的想法转化为大段文字，等到想写些什么的时候，提笔才知词穷。写博客的过程，其实就是一次深入思考并予以记录的过程，这会让人收获意想不到的喜悦，在以后看来，都会有不一样的感受。现在翻看两年前写的日志，常常会产生“我那时候竟然会有这样的想法”的感觉。 网络世界发展到今天，我们每个人在为数不少的各类网站上都有">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/smallmuou/Jekyll-Pithy/master/images/Jekyll-Pithy.png">
+  
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+</html>
+<body style="
+
+
+  background-color: #eff0f6
+
+">
+  <div id="container">
+    <nav id="nav">
+  <header class="header">
+    <a href="/" class="title">Clover Tuan</a>
+  </header>
+  <div class="ctnWrap">
+    <div class="icons">
+      
+        
+          
+            <a href="https://dribbble.com/clovertuan" target="_blank" class="nav-icn iconfont icon-dribbble"></a>
+          
+        
+          
+            <a href="https://www.behance.net/clovertuan" target="_blank" class="nav-icn iconfont icon-behance"></a>
+          
+        
+          
+            <a href="https://elsietuan.zcool.com.cn/" target="_blank" class="nav-icn iconfont icon-zcool"></a>
+          
+        
+          
+            <a href="http://clovertuan.lofter.com/" target="_blank" class="nav-icn iconfont icon-lofter"></a>
+          
+        
+          
+            <a href="https://www.instagram.com/clovertuan/" target="_blank" class="nav-icn iconfont icon-instagram"></a>
+          
+        
+      
+    </div>
+    <div class="menu">
+      
+        
+            <a href="/" class="nav-menu ">BLOG</a>
+          
+        
+            <a href="/resume" class="nav-menu ">PORTFOLIO</a>
+          
+        
+            <a href="/about" class="nav-menu ">ABOUT</a>
+          
+        
+      
+    </div>
+  </div>
+</nav>
+    <div id="main"><section class="article">
+  <h2 class="title">用Jekyll建立Github博客</h2>
+  <p class="sub">May 20, 2015</p>
+  <article class="content">
+    <h2 id="为什么写博客"><a href="#为什么写博客" class="headerlink" title="为什么写博客"></a>为什么写博客</h2><p>在网络快餐、微博客横行的今天，不得不说我越来越少地去集中思考一些问题，也越来越少地把自己的想法转化为大段文字，等到想写些什么的时候，提笔才知词穷。写博客的过程，其实就是一次深入思考并予以记录的过程，这会让人收获意想不到的喜悦，在以后看来，都会有不一样的感受。现在翻看两年前写的日志，常常会产生“我那时候竟然会有这样的想法”的感觉。</p>
+<p>网络世界发展到今天，我们每个人在为数不少的各类网站上都有着活动痕迹，网上招聘也越来越普遍，就像美国某家公司在招聘员工时需要考核应聘者在脸书上的资料、人脉及活动情况，有时候，你展现在网上的信息其实比你的简历更能说明一些问题。<a href="http://beiyuu.com" title="BeiYuu" target="_blank" rel="noopener">BeiYuu</a>有一句话是这样说的：</p>
+<blockquote>
+<p>有一个个人的品牌，对于自己的发展只有好处，行走网络江湖，有同一个ID标识，无论在哪里都会让人看到你，这样长期的潜移默化，个人的品牌效力也就展现出来了。然后有一个自己独立的域名，并且用心去经营，肯定会有人欣赏的。</p>
+</blockquote>
+<p>是的，你也许很棒，但是你还是要学着去推销你自己，让别人看到你。</p>
+<h2 id="用Github写博客"><a href="#用Github写博客" class="headerlink" title="用Github写博客"></a>用Github写博客</h2><p>以前也在博客站点上开过博客，但博客质量不高，通常是这里写两篇那里写两篇，不好统一管理，这对于有强迫症的我来说很难受，就像自己的物品散落在房间各个角落的感觉。</p>
+<p>后来偶然听闻<a href="http://github.com" title="Github:social coding" target="_blank" rel="noopener">Github</a>原来还有<a href="http://pages.github.com/" title="GitHub Pages" target="_blank" rel="noopener">Github Pages</a>这个伟大的功能，每一个账号可以建一个yourname.github.io的站点，可以使用Jekyll模板创建。对于不懂技术的人来说，可能会有一点折腾，但是绝对不难，折腾完后就能收获满满的成就感了，然后就可以安安静静地写博客啦。</p>
+<p>简单说来，用Jekyll建立Github博客分为以下几个步骤：</p>
+<ul>
+<li>安装Jekyll；</li>
+<li>安装git（也可以下载Github的客户端，使用图形化用户界面来操作）；</li>
+<li>下载喜欢的Jekyll主题，修改调整到你自己满意为止（<a href="http://jekyllthemes.org/" title="jekyll模板" target="_blank" rel="noopener">jekyll themes</a>是一个提供jekyll模板的网站，其中有很多很不错的模板，都可以免费下载），我使用的是<a href="https://github.com/smallmuou" title="smallmuou" target="_blank" rel="noopener">smallmuou</a>的模板<a href="https://github.com/smallmuou/Jekyll-Pithy" title="Jekyll-Pithy" target="_blank" rel="noopener">Jekyll-Pithy</a>，加以修改后得到了现在的样子；</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/smallmuou/Jekyll-Pithy/master/images/Jekyll-Pithy.png" alt="image"></p>
+<ul>
+<li>上述步骤完成后将文件上传到yourname.github.io中</li>
+</ul>
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>总的说来整个过程还算比较顺利，主要在安装Jekyll的时候遇到了一些问题。因为Mac系统自带Ruby，所以跳过了这一步，安装了gem之后，使用gem安装Jekyll的时候出现了问题，输入命令</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> gem install jekyll</span><br></pre></td></tr></table></figure>
+<p>会提示错误</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">While executing gem ... (Gem::FilePermissionError)</span><br><span class="line">    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.</span><br></pre></td></tr></table></figure>
+<p>原因</p>
+<blockquote>
+<p>Apparently with OSX el Capitan, there is a new security function that prevents you from modifying system files called Rootless.</p>
+</blockquote>
+<p>解决办法：使用RVM安装ruby，安装ruby后（注意一定要安装2.0.0以上的版本才可以正常安装Jekyll），再安装Jekyll就可以啦。</p>
+<p>有问题就去google一下，最后都能解决，嗯，只要有足够的耐心。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>从开始有这个想法到现在写完这篇博客，其实断断续续经历了有一段时间（不是因为难，只是因为我的拖拉，嗯，想尝试的朋友千万不要被这句话给吓到），当然目前博客里还没有什么内容，这只是刚刚开始。</p>
+
+  </article>
+  <footer class="f-cf">
+    
+      <a href="/2015/12/13/web-form-design/" class="link f-fl">⟵Web表单设计的艺术</a>
+    
+    
+  </footer>
+</section></div>
+    <footer id="footer" class="f-cf">
+  d.guangying@foxmail.com
+  
+    
+      
+        · <a href="https://dribbble.com/clovertuan" target="_blank" class="nav-icn">Dribbble</a>
+      
+    
+      
+        · <a href="https://www.behance.net/clovertuan" target="_blank" class="nav-icn">Behance</a>
+      
+    
+      
+        · <a href="https://elsietuan.zcool.com.cn/" target="_blank" class="nav-icn">Zcool</a>
+      
+    
+      
+        · <a href="http://clovertuan.lofter.com/" target="_blank" class="nav-icn">Lofter</a>
+      
+    
+      
+        · <a href="https://www.instagram.com/clovertuan/" target="_blank" class="nav-icn">Instagram</a>
+      
+    
+  
+  <span class="copyright">All rights reserved @Clover Tuan</span>
+</footer>
+  </div>
+</body>
+</html>

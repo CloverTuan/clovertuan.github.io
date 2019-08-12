@@ -1,0 +1,8 @@
+a {
+  color: #333;
+  text-decoration: none; }
+  a:hover {
+    opacity: .7; }
+
+body {
+  font-family: -apple-system, system-ui, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif; }
